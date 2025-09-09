@@ -74,15 +74,15 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
 ### 0. préparer votre machine pour ce tutoriel;
 
-- [ ] jeter un œil sur la [documentation du squelette](docs/Squelette.md)
+- [X] jeter un œil sur la [documentation du squelette](docs/Squelette.md)
 
-- [ ] [installer node.js](https://nodejs.org/en/download/) sur votre machine
+- [X] [installer node.js](https://nodejs.org/en/download/) sur votre machine
 
-- [ ] [installer VSCode](https://code.visualstudio.com/Download) sur votre machine
+- [X] [installer VSCode](https://code.visualstudio.com/Download) sur votre machine
 
-- [ ] [installer l'extension PlantUML dans VSCode](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+- [X] [installer l'extension PlantUML dans VSCode](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
 
-- [ ] configurer l'extension PlantUML pour utiliser plantuml.com comme serveur en ajoutant/modifiant les "User settings" en VSCode:
+- [X] configurer l'extension PlantUML pour utiliser plantuml.com comme serveur en ajoutant/modifiant les "User settings" en VSCode:
 
   ```json
       "plantuml.server": "https://www.plantuml.com/plantuml",
@@ -91,14 +91,14 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
   (Si vous avez les droits d'administrateur Windows) installer [GraphViz](http://www.graphviz.org/download/) pour utiliser un serveur local de PlantUML plutôt que le serveur sur Internet et configurer `"plantuml.render": "Local"` selon la [documentation](https://github.com/qjebbs/vscode-plantuml#about-render).
 
-- [ ] [installer GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop) sur votre machine
+- [X] [installer GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop) sur votre machine
 
-- [ ] [cloner](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) le dépôt de code de ce laboratoire sur votre machine
+- [X] [cloner](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) le dépôt de code de ce laboratoire sur votre machine
 
   - :warning: Ne pas cloner le code dans un chemin qui contient des espaces ou des accents.
   - Facultatif : Lire cette [Présentation de GitHub dans Visual Studio Code](https://learn.microsoft.com/fr-ca/training/modules/introduction-to-github-visual-studio-code/) de Microsoft. 
 
-- [ ] faire un build du code
+- [X] faire un build du code
 
   - Ouvrir le dossier du projet en VSCode **File > Open Folder...**
 
@@ -123,7 +123,7 @@ Vous pouvez cocher chaque étape dans la liste suivante:
     ...
     ```
 
-- [ ] exécuter les tests
+- [X] exécuter les tests
 
   - Dans le terminal, taper `npx jest --colors lab0.test.ts` pour exécuter les tests du lab 0.
 
@@ -230,18 +230,18 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
     Une croix (rouge), p. ex. `× devrait trouver votre nom` signifie qu'un test échoue, tandis qu'un test réussi s'affiche avec une coche `√` (verte).
 
-- [ ] exécuter le serveur sur localhost
+- [X] exécuter le serveur sur localhost
 
   - Dans le terminal, `npm start`
 
-- [ ] exécuter l'application avec un navigateur moderne à l'URL [http://localhost:3000](http://localhost:3000)
-  - [ ] démarrer une partie avec un joueur
-  - [ ] essayer le bouton pour jouer
-  - [ ] regarder la page Classement
-  - [ ] revenir à la page d'accueil pour voir le jeu
+- [X] exécuter l'application avec un navigateur moderne à l'URL [http://localhost:3000](http://localhost:3000)
+  - [X] démarrer une partie avec un joueur
+  - [X] essayer le bouton pour jouer
+  - [X] regarder la page Classement
+  - [X] revenir à la page d'accueil pour voir le jeu
 
-- [ ] regarder dans VSCode la structure des pages statiques dans `views/` ainsi que la barre de navigation (`views/includes/navbar.pug`) qui est [incluse](https://pugjs.org/language/includes.html) dans les pages statiques (`views/index.pug`,`views/stats.pug`).
-- [ ] regarder comment dans `src/app.ts` un gabarit Pug `views/index.pug` est utilisé:
+- [X] regarder dans VSCode la structure des pages statiques dans `views/` ainsi que la barre de navigation (`views/includes/navbar.pug`) qui est [incluse](https://pugjs.org/language/includes.html) dans les pages statiques (`views/index.pug`,`views/stats.pug`).
+- [X] regarder comment dans `src/app.ts` un gabarit Pug `views/index.pug` est utilisé:
 
   ```typescript
     // Route pour jouer (index)
